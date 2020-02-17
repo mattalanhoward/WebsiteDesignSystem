@@ -1,0 +1,162 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    margin: 30px 50px;
+}
+
+.colors{
+    border: 2px solid gray;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    
+    
+
+}
+
+h2{
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+h3{
+    position: relative;
+    left: 20px;
+    text-decoration: underline;
+}
+
+p{
+    position: relative;
+    left: 20px;
+    
+}
+
+.boxes{
+    color: white;
+    height: 150px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+
+#blue{
+    background-color: #485C6A;
+    padding: 20px;
+
+}
+
+#red{
+    background-color: #61291C;
+    padding: 20px;
+}
+
+#green{
+    background-color: #636f65;
+    padding: 20px;
+}
+
+#purple{
+    background-color: #4d3a40;
+    padding: 20px;
+}
+#clay{
+    background-color: #f6ece0;
+    padding: 20px;
+}
+
+#black{
+    background-color: #313639;
+    padding: 20px;
+}
+
+.fonts{
+    border: 2px solid gray;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.fonttypes{
+    height: 150px;
+    width: 400px;
+    display: inline-block;
+    min-width: 100px;
+}
+
+.font1{
+    font-family: 'roboto', 'arial', sans-serif;
+    font-style: bold;
+}
+
+.font2{
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+}
+
+.font3{
+    font-family: 'Playfair Display', serif;
+    font-style: bold;
+}
+.normal{
+    font-style: normal;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+
+
+.textstyles{
+    border: 2px solid gray;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.h1heading{
+    font-weight: 700 (bold);
+    font-size: 26px;
+    font-family: 'Roboto', 'arial', serif;
+    width: 500px;
+}
+
+.h2heading{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    width: 500px;
+}
+
+.paragraph{
+    font-weight: 400 (bold);
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    width: 500px;
+}
+
+.footer{
+    position: relative;
+    bottom: 5px;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    text-transform: lowercase;
+    
+}
